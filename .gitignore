@@ -1,0 +1,21 @@
+# Node modules (prevents thousands of unnecessary files from being committed)
+node_modules/
+
+# Jest cache and test coverage reports
+coverage/
+.jest/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (if you use dotenv)
+.env
+
+# OS-specific files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
